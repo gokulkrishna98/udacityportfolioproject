@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header
+{
+    height: 100px;
+    width :  100%;
+    border-bottom: 3px #7d97ad solid;
+}
+
+#logo
+{
+    float: left;
+    height: 100%;
+    width: 15%;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+#logo-image
+{
+    height: 100%;
+    width: 100%;
+}
+
+#Name-container
+{
+    float: right;
+    width: 85%;
+    height: 100%;
+    padding-top: 15px;
+}
+
+#name
+{
+    float: right;
+    font-family: 'Bellefair', serif;
+    font-size: 250%;
+    color: #2d3c49;
+}
+
+#specialization
+{
+    float: right;
+    clear: right;
+    font-family: 'Bellefair', serif;
+    font-size: 150%;
+}
+
+#main-body-image-container
+{
+    height: 450px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+#main-body-image
+{
+    height: 100%;
+    width: 100%;
+}
+
+#featuredwork-title
+{
+    font-size: 190%;
+    color: #7d97ad;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+#featuredworks-container
+{
+    height: 250px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+}
+
+.featuredworks
+{
+    padding: 5px;
+}
+
+.featuredworks-image-container
+{
+    height: 200px;
+}
+
+.featuredworks-image
+{   
+    width: 100%;
+    height: 100%;
+}
+
+.worktitle
+{
+    font-size: 150%;
+    color: #2d3c49;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Bellefair', serif;
+    padding: 4px;
+}
+.project-addr
+{
+    word-wrap: break-word;
+    color: #2d3c49;
+    font-size: 110%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
