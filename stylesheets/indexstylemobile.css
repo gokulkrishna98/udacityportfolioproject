@@ -109,7 +109,7 @@ header
     padding: 4px;
 }
 
-#link-addr
+.link-addr
 {
     text-decoration: none;
     color: #2d3c49;
